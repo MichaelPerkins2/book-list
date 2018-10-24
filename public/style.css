@@ -1,0 +1,39 @@
+.page {
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 6vh;
+    padding: 4vh 0;
+}
+
+.search-box {
+    width: 20vw;
+}
+
+.top {
+    text-align: center;
+}
+
+.sub-title {
+    text-align: center;
+    line-height: 6vh;
+    padding: 2vh 0;
+}
+
+.book-list {
+    background-color: snow;
+    margin: 0 20vw;
+}
+
+.bottom {
+    text-align: center;
+    padding: 2vh 0;
+}
+
+.add-book {
+    width: 16vw;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <title>Book List</title>
+    </head>
+    <body>
+        <div class="page container" id="wrapper">
+            <header>
+                <div class="top" id="page-banner">
+                    <h1 class="title">Book List</h1>
+                    <form class="search-form" id="search-books">
+                        <input class="search-box" type="text" placeholder="Search Books..." />
+                    </form>
+                </div>
+            </header>
+            <div class="center" id="book-list">
+                <br>
+                <h3 class="sub-title">Books to Read</h3>
+                <ul class="book-list">
+                    <li>
+                        <span class="name">Name of the Wind</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Wise Man's Fear</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">Kafka on the Shore</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                    <li>
+                        <span class="name">The Master and the Margarita</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                </ul>
+            </div>
+            <form class="bottom" id="add-book">
+                <input class="add-book" type="text" placeholder="Add a book..." />
+                <button>Add</button>
+            </form>
+        </div>
+        <div id="root"></div>
+    </body>
+</html>
