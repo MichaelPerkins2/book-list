@@ -29,6 +29,32 @@
     margin: 0 20vw;
 }
 
+li {
+    padding: 1vh 0;
+}
+
+li button {
+    display: flex;
+    float: right;
+    background-color: #7FDBFF;
+    color: white;
+    border-radius: 4px;
+
+}
+
+li button.focus, button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+li button:hover {
+    background-color: #DDDDDD;
+}
+
+.name {
+    font-size: 2vh;
+}
+
 .bottom {
     text-align: center;
     padding: 2vh 0;
